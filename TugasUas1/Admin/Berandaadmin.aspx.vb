@@ -5,6 +5,10 @@ Public Class Berandaadmin
     Dim Bunga_M As New Bunga_M
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         If Not IsPostBack Then
+            Dim query As String = "SELECT nama_grafik, angka_grafik FROM grafik"
+            Dim k As New Koneksidb
+            Dim dt As System.Data.DataTable = k.GetResult(query)
+            ViewState("GrafikData") = dt
             dataBunga()
         End If
     End Sub
@@ -34,6 +38,18 @@ Public Class Berandaadmin
         ' Bind the data to the GridView again
         GridView.DataBind()
     End Sub
+    Dim dt As New DataTable
+    Public Function TampilGrafik() As Object
+        Dim query As String = "SELECT nama_grafik, angka_grafik FROM grafik"
+        Dim k As New Koneksidb
+        Dim grafikData As New List(Of Object)
+        dt = k.GetResult(query)
+        For Each row As DataRow In dt.Rows
+            grafikData.Add(New With {.nama = row("nama_grafik"), .jumlah = row("angka_grafik")})
+        Next
+
+        Return grafikData
+    End Function
 
 End Class
 Public Class ImageTemplate

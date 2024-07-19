@@ -18,13 +18,13 @@ Public Class TambahBunga
         Dim stok As String = txtStok.Text
         Dim harga As String = txtHarga.Text
 
-        If nama <> "" AndAlso idjenis <> "" AndAlso stok <> "" AndAlso harga <> "" Then
-            Dim kt As New TambahBunga_M
-            kt.SetNama(nama)
-            kt.SetIdjenis(idjenis)
-            kt.SetStok(Convert.ToInt32(stok))
-            kt.SetHarga(Convert.ToDecimal(harga))
-            Dim status As Boolean = kt.Tambah()
+        If nama <> "" AndAlso idjenis <> "" AndAlso stok <> "" AndAlso harga <> "" AndAlso foto.HasFile Then
+            Dim kt As New Bunga_M
+            Dim fotoBytes() As Byte
+            fotoBytes = New Byte(foto.PostedFile.ContentLength - 1) {}
+            foto.PostedFile.InputStream.Read(fotoBytes, 0, foto.PostedFile.ContentLength)
+
+            Dim status As Boolean = kt.Tambah(0, nama, fotoBytes, Convert.ToInt32(idjenis), Convert.ToInt32(stok), Convert.ToInt32(harga))
             If status = True Then
                 MsgBox("Data bunga berhasil di tambah")
                 Response.Redirect("Berandaadmin.aspx")
@@ -32,7 +32,7 @@ Public Class TambahBunga
                 MsgBox("Data bunga tidak berhasil di tambah")
             End If
         Else
-            MsgBox("Semua field harus diisi!")
+            MsgBox("Semua field harus diisi dan foto harus diupload!")
         End If
     End Sub
 

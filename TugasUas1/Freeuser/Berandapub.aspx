@@ -84,22 +84,30 @@
                             </div>
                         </section>
                     </div>
-                   <div class="container text-center">
-                  <button class="btn scroll-to-top" data-scroll-top="data-scroll-top">
-                    <span class="uil uil-angle-up text-white"></span>
-                  </button>
-                  <br />
-                  <div class="form-group">
-                    <asp:DropDownList class="form-select bg-white border-1" ID="Ddljenis" runat="server"></asp:DropDownList>
-                    <label for="Ddljenis">Pilih Jenis</label>
-                  </div>
-                  <div class="form-group">
-                    <asp:Button class="btn btn-primary text-white w-100 py-3" ID="BtnPilih" runat="server" Text="Pilih Jenis" />
-                  </div>
-                  <div class="text-center">
-                    <asp:GridView ID="GV" runat="server"></asp:GridView>
-                  </div>
-                  </div>
+                    <div class="container text-center">
+                        <button class="btn scroll-to-top" data-scroll-top="data-scroll-top">
+                            <span class="uil uil-angle-up text-white"></span>
+                        </button>
+                        <br />
+                        <div class="form-group">
+                            <asp:DropDownList class="form-select bg-white border-1" ID="Ddljenis" runat="server"></asp:DropDownList>
+                            <label for="Ddljenis">Pilih Jenis</label>
+                        </div>
+                        <div class="form-group">
+                            <asp:Button class="btn btn-primary text-white w-100 py-3" ID="BtnPilih" runat="server" Text="Pilih Jenis" />
+                        </div>
+                        <div class="text-center">
+                            <asp:GridView ID="GV" runat="server" CssClass="table table-bordered" AutoGenerateColumns="False" DataKeyNames="idbunga">
+                                <Columns>
+                                    <asp:BoundField DataField="idbunga" HeaderText="No" ReadOnly="True" />
+                                    <asp:BoundField DataField="nama" HeaderText="Nama Bunga" />
+                                    <asp:BoundField DataField="idjenis" HeaderText="ID Jenis" />
+                                    <asp:BoundField DataField="stok" HeaderText="Stok" />
+                                    <asp:BoundField DataField="harga" HeaderText="Harga" />
+                                </Columns>
+                            </asp:GridView>
+                        </div>
+                    </div>
                     <footer class="Footer" style="background-image: url('assets/img/illustrations/BOTTOM.png')">
                         <div class="pb-x1 px-3 px-lg-0">
                             <div class="container">

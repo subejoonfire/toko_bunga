@@ -78,7 +78,62 @@
                 </form>
             </nav>
             <!-- Navbar End -->
+            <div class="container-fluid pt-4 px-4">
+                <div class="bg-secondary text-center rounded p-4">
+                    <h6 class="mb-0">Grafik Penjualan Bunga</h6>
+                    <canvas id="grafikCanvas" width="400" height="200"></canvas>
+                </div>
+            </div>
+            <!-- Grafik End -->
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+            <script type="text/javascript">
+                var ctx = document.getElementById('grafikCanvas').getContext('2d');
+                var chart = new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: [],
+                        datasets: [{
+                            label: 'Grafik',
+                            data: [],
+                            backgroundColor: [
+                                'rgba(255, 99, 132, 0.2)',
+                                'rgba(54, 162, 235, 0.2)',
+                                'rgba(255, 206, 86, 0.2)',
+                                'rgba(75, 192, 192, 0.2)',
+                                'rgba(153, 102, 255, 0.2)',
+                                'rgba(255, 159, 64, 0.2)'
+                            ],
+                            borderColor: [
+                                'rgba(255, 99, 132, 1)',
+                                'rgba(54, 162, 235, 1)',
+                                'rgba(255, 206, 86, 1)',
+                                'rgba(75, 192, 192, 1)',
+                                'rgba(153, 102, 255, 1)',
+                                'rgba(255, 159, 64, 1)'
+                            ],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
 
+    <% 
+                Dim dt As System.Data.DataTable = ViewState("GrafikData")
+                For Each row As System.Data.DataRow In dt.Rows
+    %>
+                chart.data.labels.push("<%= row("nama_grafik") %>");
+                chart.data.datasets[0].data.push(<%= row("angka_grafik") %>);
+    <%
+                Next
+    %>
+                chart.update();
+            </script>
             <!-- Recent Sales Start -->
             <div class="container-fluid pt-4 px-4">
                 <div class="bg-secondary text-center rounded p-4">

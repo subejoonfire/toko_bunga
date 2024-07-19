@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="TambahBunga.aspx.vb" Inherits="TugasUas1.TambahBunga" %>
+
 <%@ Register TagPrefix="uc" TagName="Sidebar" Src="~/Admin/Sidebar.ascx" %>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,8 +17,8 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet"> 
-    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
@@ -60,7 +61,7 @@
             </nav>
             <!-- Navbar End -->
 
-                      
+
             <!-- Recent Sales Start -->
             <div class="container-fluid pt-4 px-4">
                 <div class="bg-secondary text-center rounded p-4">
@@ -69,47 +70,54 @@
                         <a href="">Show All</a>
                     </div>
                     <!-- GridView -->
-                <form runat="server">
-                    <div class="mb-0 d-flex justify-content-start">
-                        <asp:Label ID="Label1" runat="server" Text="Nama Bunga"></asp:Label>
-                    </div>
-                    <asp:TextBox ID="txtNama" runat="server" CssClass="form-control"></asp:TextBox>
-                    <br />
-
-                    <div class="mb-0 d-flex justify-content-start">
-                        <asp:Label ID="Label2" runat="server" Text="Idjenis"></asp:Label>
-                    </div>
-                    <asp:TextBox ID="txtIdjenis" runat="server" CssClass="form-control"></asp:TextBox>
-                    <br />
-
-                    <div class="mb-0 d-flex justify-content-start">
-                        <asp:Label ID="Label3" runat="server" Text="Stok"></asp:Label>
-                    </div>
-                    <asp:TextBox ID="txtStok" runat="server" CssClass="form-control"></asp:TextBox>
-                    <br />
-                  
-                    <div class="mb-0 d-flex justify-content-start">
-                        <asp:Label ID="Label4" runat="server" Text="Harga"></asp:Label>
-                    </div>
-                    <asp:TextBox ID="txtHarga" runat="server" CssClass="form-control"></asp:TextBox>
+                    <form runat="server">
+                        <div class="mb-0 d-flex justify-content-start">
+                            <asp:Label ID="Label1" runat="server" Text="Nama Bunga"></asp:Label>
+                        </div>
+                        <asp:TextBox ID="txtNama" runat="server" CssClass="form-control"></asp:TextBox>
                         <br />
-                    <br />
 
-                    <div class="mb-0 d-flex justify-content-start">
-                        <asp:Button ID="btnSimpan" runat="server" Text="Simpan" CssClass="btn btn-primary" />
-                        &nbsp;
+                        <div class="mb-0 d-flex justify-content-start">
+                            <asp:Label ID="Label2" runat="server" Text="Idjenis"></asp:Label>
+                        </div>
+                        <asp:TextBox ID="txtIdjenis" runat="server" CssClass="form-control"></asp:TextBox>
+                        <br />
+
+                        <div class="mb-0 d-flex justify-content-start">
+                            <asp:Label ID="Label3" runat="server" Text="Stok"></asp:Label>
+                        </div>
+                        <asp:TextBox ID="txtStok" runat="server" CssClass="form-control"></asp:TextBox>
+                        <br />
+
+                        <div class="mb-0 d-flex justify-content-start">
+                            <asp:Label ID="Label4" runat="server" Text="Harga"></asp:Label>
+                        </div>
+                        <asp:TextBox ID="txtHarga" runat="server" CssClass="form-control"></asp:TextBox>
+                        <br />
+
+                        <div class="mb-0 d-flex justify-content-start">
+                            <asp:Label ID="Label5" runat="server" Text="Foto"></asp:Label>
+                        </div>
+                        <asp:FileUpload ID="foto" runat="server" CssClass="form-control" />
+                        <br />
+
+                        <br />
+
+                        <div class="mb-0 d-flex justify-content-start">
+                            <asp:Button ID="btnSimpan" runat="server" Text="Simpan" CssClass="btn btn-primary" />
+                            &nbsp;
            
-                        <asp:Button ID="btnKembali" runat="server" Text="Kembali" CssClass="btn btn-secondary" />
-                    </div>
-                </form>
+    <asp:Button ID="btnKembali" runat="server" Text="Kembali" CssClass="btn btn-secondary" />
+                        </div>
+                    </form>
 
+                </div>
+            </div>
         </div>
     </div>
-</div>
-                </div>
 
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

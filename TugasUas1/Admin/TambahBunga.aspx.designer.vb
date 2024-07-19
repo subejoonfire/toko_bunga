@@ -86,6 +86,24 @@ Partial Public Class TambahBunga
     Protected WithEvents txtHarga As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
+    '''Label5 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Label5 As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''foto control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents foto As Global.System.Web.UI.WebControls.FileUpload
+
+    '''<summary>
     '''btnSimpan control.
     '''</summary>
     '''<remarks>
