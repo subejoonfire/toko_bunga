@@ -1,0 +1,744 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{926C356F-DAA8-403A-9889-CE8A1D20942B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>TugasUas1</RootNamespace>
+    <AssemblyName>TugasUas1</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44369</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>TugasUas1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>TugasUas1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BCrypt.Net-Next, Version=4.0.3.0, Culture=neutral, PublicKeyToken=1e11be04b6288443, processorArchitecture=MSIL">
+      <HintPath>..\packages\BCrypt.Net-Next.4.0.3\lib\net48\BCrypt.Net-Next.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.2.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Connector NET 8.2.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Berandaadmin.aspx" />
+    <Content Include="Admin\css\bootstrap.min.css" />
+    <Content Include="Admin\css\style.css" />
+    <Content Include="Admin\img\foto.jpg" />
+    <Content Include="Admin\img\testimonial-1.jpg" />
+    <Content Include="Admin\img\testimonial-2.jpg" />
+    <Content Include="Admin\img\user.jpg" />
+    <Content Include="Admin\js\main.js" />
+    <Content Include="Admin\lib\chart\chart.min.js" />
+    <Content Include="Admin\lib\easing\easing.js" />
+    <Content Include="Admin\lib\easing\easing.min.js" />
+    <Content Include="Admin\lib\owlcarousel\assets\ajax-loader.gif" />
+    <Content Include="Admin\lib\owlcarousel\assets\owl.carousel.css" />
+    <Content Include="Admin\lib\owlcarousel\assets\owl.carousel.min.css" />
+    <Content Include="Admin\lib\owlcarousel\assets\owl.theme.default.css" />
+    <Content Include="Admin\lib\owlcarousel\assets\owl.theme.default.min.css" />
+    <Content Include="Admin\lib\owlcarousel\assets\owl.theme.green.css" />
+    <Content Include="Admin\lib\owlcarousel\assets\owl.theme.green.min.css" />
+    <Content Include="Admin\lib\owlcarousel\assets\owl.video.play.png" />
+    <Content Include="Admin\lib\owlcarousel\owl.carousel.js" />
+    <Content Include="Admin\lib\owlcarousel\owl.carousel.min.js" />
+    <Content Include="Admin\lib\tempusdominus\css\tempusdominus-bootstrap-4.css" />
+    <Content Include="Admin\lib\tempusdominus\css\tempusdominus-bootstrap-4.min.css" />
+    <Content Include="Admin\lib\tempusdominus\js\moment-timezone.min.js" />
+    <Content Include="Admin\lib\tempusdominus\js\moment.min.js" />
+    <Content Include="Admin\lib\tempusdominus\js\tempusdominus-bootstrap-4.js" />
+    <Content Include="Admin\lib\tempusdominus\js\tempusdominus-bootstrap-4.min.js" />
+    <Content Include="Admin\lib\waypoints\waypoints.min.js" />
+    <Content Include="Admin\Login.aspx" />
+    <Content Include="Admin\Sidebar.ascx" />
+    <Content Include="Admin\TambahBunga.aspx" />
+    <Content Include="Admin\EditBunga.aspx" />
+    <Content Include="Freeuser\assets\css\theme-rtl.css" />
+    <Content Include="Freeuser\assets\css\theme-rtl.min.css" />
+    <Content Include="Freeuser\assets\css\theme.css" />
+    <Content Include="Freeuser\assets\css\theme.min.css" />
+    <Content Include="Freeuser\assets\css\theme\review-card-rtl.css" />
+    <Content Include="Freeuser\assets\css\theme\review-card-rtl.min.css" />
+    <Content Include="Freeuser\assets\css\theme\review-card.css" />
+    <Content Include="Freeuser\assets\css\theme\review-card.min.css" />
+    <Content Include="Freeuser\assets\css\user-rtl.css" />
+    <Content Include="Freeuser\assets\css\user-rtl.min.css" />
+    <Content Include="Freeuser\assets\css\user.css" />
+    <Content Include="Freeuser\assets\css\user.min.css" />
+    <Content Include="Freeuser\assets\data\usa.js" />
+    <Content Include="Freeuser\assets\data\world.js" />
+    <Content Include="Freeuser\assets\img\blogs\blog_1.png" />
+    <Content Include="Freeuser\assets\img\blogs\blog_2.png" />
+    <Content Include="Freeuser\assets\img\blogs\blog_3.png" />
+    <Content Include="Freeuser\assets\img\favicons\android-chrome-192x192.png" />
+    <Content Include="Freeuser\assets\img\favicons\android-chrome-512x512.png" />
+    <Content Include="Freeuser\assets\img\favicons\apple-touch-icon.png" />
+    <Content Include="Freeuser\assets\img\favicons\favicon-16x16.png" />
+    <Content Include="Freeuser\assets\img\favicons\favicon-32x32.png" />
+    <Content Include="Freeuser\assets\img\favicons\favicon.ico" />
+    <Content Include="Freeuser\assets\img\favicons\favicon.png" />
+    <Content Include="Freeuser\assets\img\Hero\man_watering.png" />
+    <Content Include="Freeuser\assets\img\Hero\planting.png" />
+    <Content Include="Freeuser\assets\img\icons\Counter_1.png" />
+    <Content Include="Freeuser\assets\img\icons\Counter_2.png" />
+    <Content Include="Freeuser\assets\img\icons\Counter_3.png" />
+    <Content Include="Freeuser\assets\img\icons\star.png" />
+    <Content Include="Freeuser\assets\img\illustrations\BOTTOM.png" />
+    <Content Include="Freeuser\assets\img\illustrations\footer.png" />
+    <Content Include="Freeuser\assets\img\illustrations\Footer.svg" />
+    <Content Include="Freeuser\assets\img\illustrations\Footer_1.svg" />
+    <Content Include="Freeuser\assets\img\illustrations\loveletter.png" />
+    <Content Include="Freeuser\assets\img\illustrations\women_watering.png" />
+    <Content Include="Freeuser\assets\img\logo.png" />
+    <Content Include="Freeuser\assets\img\logos\Footer_logo.png" />
+    <Content Include="Freeuser\assets\img\logos\logo.png" />
+    <Content Include="Freeuser\assets\img\products\products\1.png" />
+    <Content Include="Freeuser\assets\img\products\products\2.png" />
+    <Content Include="Freeuser\assets\img\products\products\3.png" />
+    <Content Include="Freeuser\assets\img\products\products\4.png" />
+    <Content Include="Freeuser\assets\img\products\products\5.png" />
+    <Content Include="Freeuser\assets\img\products\products\6.png" />
+    <Content Include="Freeuser\assets\img\products\products\7.png" />
+    <Content Include="Freeuser\assets\img\products\products\8.png" />
+    <Content Include="Freeuser\assets\img\products\products\9.png" />
+    <Content Include="Freeuser\assets\img\review\1.png" />
+    <Content Include="Freeuser\assets\img\review\2.png" />
+    <Content Include="Freeuser\assets\img\review\3.png" />
+    <Content Include="Freeuser\assets\img\team\badhon.png" />
+    <Content Include="Freeuser\assets\img\team\team\1.png" />
+    <Content Include="Freeuser\assets\img\team\team\2.png" />
+    <Content Include="Freeuser\assets\img\team\team\3.png" />
+    <Content Include="Freeuser\assets\img\team\team\4.png" />
+    <Content Include="Freeuser\assets\img\team\team\5.png" />
+    <Content Include="Freeuser\assets\img\team\team\6.png" />
+    <Content Include="Freeuser\assets\js\config.js" />
+    <Content Include="Freeuser\assets\js\echart-example.js" />
+    <Content Include="Freeuser\assets\js\echarts-example.js" />
+    <Content Include="Freeuser\assets\js\theme.js" />
+    <Content Include="Freeuser\assets\js\theme.min.js" />
+    <Content Include="Freeuser\assets\logos\themewagon %281%29.png" />
+    <Content Include="Freeuser\assets\video\beach.jpg" />
+    <Content Include="Freeuser\assets\video\beach.mp4" />
+    <Content Include="Freeuser\assets\video\beach.webm" />
+    <Content Include="Freeuser\Berandapub.aspx" />
+    <Content Include="Freeuser\vendors\anchorjs\anchor.min.js" />
+    <Content Include="Freeuser\vendors\bootstrap\bootstrap.min.js" />
+    <Content Include="Freeuser\vendors\chart\chart.min.js" />
+    <Content Include="Freeuser\vendors\choices\base.min.css" />
+    <Content Include="Freeuser\vendors\choices\choices.min.css" />
+    <Content Include="Freeuser\vendors\choices\choices.min.js" />
+    <Content Include="Freeuser\vendors\countup\countUp.umd.js" />
+    <Content Include="Freeuser\vendors\d3\d3.min.js" />
+    <Content Include="Freeuser\vendors\datatables.net-bs5\dataTables.bootstrap5.min.css" />
+    <Content Include="Freeuser\vendors\datatables.net-bs5\dataTables.bootstrap5.min.js" />
+    <Content Include="Freeuser\vendors\datatables.net-dt\jquery.dataTables.min.css" />
+    <Content Include="Freeuser\vendors\datatables.net-fixedcolumns\dataTables.fixedColumns.min.js" />
+    <Content Include="Freeuser\vendors\datatables.net\jquery.dataTables.min.js" />
+    <Content Include="Freeuser\vendors\dayjs\dayjs.min.js" />
+    <Content Include="Freeuser\vendors\draggable\draggable.bundle.legacy.js" />
+    <Content Include="Freeuser\vendors\dropzone\dropzone.min.css" />
+    <Content Include="Freeuser\vendors\dropzone\dropzone.min.js" />
+    <Content Include="Freeuser\vendors\echarts-countries-js\map\USA.js" />
+    <Content Include="Freeuser\vendors\echarts-countries-js\map\world.js" />
+    <Content Include="Freeuser\vendors\echarts-countries-js\world\world.js" />
+    <Content Include="Freeuser\vendors\echarts\echarts.min.js" />
+    <Content Include="Freeuser\vendors\flatpickr\flatpickr.min.css" />
+    <Content Include="Freeuser\vendors\fontawesome\all.min.js" />
+    <Content Include="Freeuser\vendors\fullcalendar\main.js" />
+    <Content Include="Freeuser\vendors\fullcalendar\main.min.css" />
+    <Content Include="Freeuser\vendors\fullcalendar\main.min.js" />
+    <Content Include="Freeuser\vendors\glightbox\glightbox.min.css" />
+    <Content Include="Freeuser\vendors\glightbox\glightbox.min.js" />
+    <Content Include="Freeuser\vendors\imask\imask.min.js" />
+    <Content Include="Freeuser\vendors\inputmask\inputmask.min.js" />
+    <Content Include="Freeuser\vendors\ion-rangeslider\ion.rangeSlider.min.css" />
+    <Content Include="Freeuser\vendors\ion-rangeslider\ion.rangeSlider.min.js" />
+    <Content Include="Freeuser\vendors\is\is.min.js" />
+    <Content Include="Freeuser\vendors\jquery\jquery.min.js" />
+    <Content Include="Freeuser\vendors\leaflet.markercluster\leaflet.markercluster.js" />
+    <Content Include="Freeuser\vendors\leaflet.markercluster\MarkerCluster.css" />
+    <Content Include="Freeuser\vendors\leaflet.markercluster\MarkerCluster.Default.css" />
+    <Content Include="Freeuser\vendors\leaflet.tilelayer.colorfilter\leaflet-tilelayer-colorfilter.min.js" />
+    <Content Include="Freeuser\vendors\leaflet\leaflet.css" />
+    <Content Include="Freeuser\vendors\leaflet\leaflet.js" />
+    <Content Include="Freeuser\vendors\list.js\list.min.js" />
+    <Content Include="Freeuser\vendors\lodash\lodash.min.js" />
+    <Content Include="Freeuser\vendors\lottie\lottie.min.js" />
+    <Content Include="Freeuser\vendors\nouislider\nouislider.min.css" />
+    <Content Include="Freeuser\vendors\nouislider\nouislider.min.js" />
+    <Content Include="Freeuser\vendors\overlayscrollbars\OverlayScrollbars.min.css" />
+    <Content Include="Freeuser\vendors\overlayscrollbars\OverlayScrollbars.min.js" />
+    <Content Include="Freeuser\vendors\picmo\index.css" />
+    <Content Include="Freeuser\vendors\picmo\index.js" />
+    <Content Include="Freeuser\vendors\plyr\plyr.css" />
+    <Content Include="Freeuser\vendors\plyr\plyr.polyfilled.min.js" />
+    <Content Include="Freeuser\vendors\popper\popper.min.js" />
+    <Content Include="Freeuser\vendors\prism\prism-okaidia.css" />
+    <Content Include="Freeuser\vendors\prism\prism.js" />
+    <Content Include="Freeuser\vendors\rater-js\index.js" />
+    <Content Include="Freeuser\vendors\rater-js\rater-js.js" />
+    <Content Include="Freeuser\vendors\rater-js\star_0.svg" />
+    <Content Include="Freeuser\vendors\rater-js\star_1.svg" />
+    <Content Include="Freeuser\vendors\rater-js\style.css" />
+    <Content Include="Freeuser\vendors\select2-bootstrap-5-theme\select2-bootstrap-5-theme.min.css" />
+    <Content Include="Freeuser\vendors\select2\select2.full.min.js" />
+    <Content Include="Freeuser\vendors\select2\select2.min.css" />
+    <Content Include="Freeuser\vendors\select2\select2.min.js" />
+    <Content Include="Freeuser\vendors\simplebar\simplebar.min.css" />
+    <Content Include="Freeuser\vendors\simplebar\simplebar.min.js" />
+    <Content Include="Freeuser\vendors\swiper\swiper-bundle.min.css" />
+    <Content Include="Freeuser\vendors\swiper\swiper-bundle.min.js" />
+    <Content Include="Freeuser\vendors\tiny-slider\tiny-slider.css" />
+    <Content Include="Freeuser\vendors\tiny-slider\tiny-slider.js" />
+    <Content Include="Freeuser\vendors\tinymce\icons\default\icons.js" />
+    <Content Include="Freeuser\vendors\tinymce\icons\default\icons.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\icons\default\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\jquery.tinymce.js" />
+    <Content Include="Freeuser\vendors\tinymce\jquery.tinymce.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\license.txt" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\advlist\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\advlist\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\advlist\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\anchor\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\anchor\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\anchor\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\autolink\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\autolink\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\autolink\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\autoresize\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\autoresize\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\autoresize\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\autosave\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\autosave\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\autosave\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\bbcode\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\bbcode\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\bbcode\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\charmap\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\charmap\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\charmap\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\codesample\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\codesample\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\codesample\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\code\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\code\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\code\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\colorpicker\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\colorpicker\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\colorpicker\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\contextmenu\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\contextmenu\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\contextmenu\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\directionality\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\directionality\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\directionality\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\emoticons\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\emoticons\js\emojiimages.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\emoticons\js\emojiimages.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\emoticons\js\emojis.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\emoticons\js\emojis.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\emoticons\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\emoticons\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\fullpage\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\fullpage\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\fullpage\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\fullscreen\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\fullscreen\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\fullscreen\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\help\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\help\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\help\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\hr\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\hr\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\hr\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\imagetools\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\imagetools\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\imagetools\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\image\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\image\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\image\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\importcss\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\importcss\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\importcss\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\insertdatetime\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\insertdatetime\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\insertdatetime\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\legacyoutput\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\legacyoutput\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\legacyoutput\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\link\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\link\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\link\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\lists\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\lists\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\lists\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\media\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\media\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\media\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\nonbreaking\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\nonbreaking\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\nonbreaking\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\noneditable\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\noneditable\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\noneditable\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\pagebreak\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\pagebreak\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\pagebreak\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\paste\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\paste\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\paste\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\preview\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\preview\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\preview\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\print\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\print\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\print\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\quickbars\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\quickbars\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\quickbars\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\save\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\save\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\save\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\searchreplace\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\searchreplace\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\searchreplace\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\spellchecker\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\spellchecker\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\spellchecker\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\tabfocus\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\tabfocus\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\tabfocus\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\table\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\table\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\table\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\template\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\template\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\template\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\textcolor\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\textcolor\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\textcolor\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\textpattern\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\textpattern\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\textpattern\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\toc\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\toc\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\toc\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\visualblocks\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\visualblocks\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\visualblocks\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\visualchars\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\visualchars\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\visualchars\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\wordcount\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\wordcount\plugin.js" />
+    <Content Include="Freeuser\vendors\tinymce\plugins\wordcount\plugin.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\skins\content\dark\content.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\content\dark\content.min.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\content\default\content.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\content\default\content.min.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\content\document\content.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\content\document\content.min.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\content\writer\content.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\content\writer\content.min.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\ui\oxide-dark\content.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\ui\oxide-dark\content.inline.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\ui\oxide-dark\content.inline.min.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\ui\oxide-dark\content.min.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\ui\oxide-dark\content.mobile.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\ui\oxide-dark\content.mobile.min.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\ui\oxide-dark\skin.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\ui\oxide-dark\skin.min.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\ui\oxide-dark\skin.mobile.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\ui\oxide-dark\skin.mobile.min.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\ui\oxide-dark\skin.shadowdom.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\ui\oxide-dark\skin.shadowdom.min.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\ui\oxide\content.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\ui\oxide\content.inline.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\ui\oxide\content.inline.min.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\ui\oxide\content.min.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\ui\oxide\content.mobile.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\ui\oxide\content.mobile.min.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\ui\oxide\skin.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\ui\oxide\skin.min.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\ui\oxide\skin.mobile.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\ui\oxide\skin.mobile.min.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\ui\oxide\skin.shadowdom.css" />
+    <Content Include="Freeuser\vendors\tinymce\skins\ui\oxide\skin.shadowdom.min.css" />
+    <Content Include="Freeuser\vendors\tinymce\themes\mobile\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\themes\mobile\theme.js" />
+    <Content Include="Freeuser\vendors\tinymce\themes\mobile\theme.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\themes\silver\index.js" />
+    <Content Include="Freeuser\vendors\tinymce\themes\silver\theme.js" />
+    <Content Include="Freeuser\vendors\tinymce\themes\silver\theme.min.js" />
+    <Content Include="Freeuser\vendors\tinymce\tinymce.js" />
+    <Content Include="Freeuser\vendors\tinymce\tinymce.min.js" />
+    <Content Include="Freeuser\vendors\toastify-js\toastify.css" />
+    <Content Include="Freeuser\vendors\toastify-js\toastify.js" />
+    <Content Include="Freeuser\vendors\typed.js\typed.js" />
+    <Content Include="Freeuser\vendors\unicon\bundle.js" />
+    <Content Include="Freeuser\vendors\unicon\line.css" />
+    <Content Include="Freeuser\vendors\validator\validator.min.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Berandaadmin.aspx.designer.vb">
+      <DependentUpon>Berandaadmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Berandaadmin.aspx.vb">
+      <DependentUpon>Berandaadmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Sidebar.ascx.designer.vb">
+      <DependentUpon>Sidebar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Sidebar.ascx.vb">
+      <DependentUpon>Sidebar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\TambahBunga.aspx.designer.vb">
+      <DependentUpon>TambahBunga.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TambahBunga.aspx.vb">
+      <DependentUpon>TambahBunga.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\EditBunga.aspx.designer.vb">
+      <DependentUpon>EditBunga.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EditBunga.aspx.vb">
+      <DependentUpon>EditBunga.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Model\akun.vb" />
+    <Compile Include="Model\Bunga_M.vb" />
+    <Compile Include="Freeuser\Berandapub.aspx.designer.vb">
+      <DependentUpon>Berandapub.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Freeuser\Berandapub.aspx.vb">
+      <DependentUpon>Berandapub.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Model\EditBunga_M.vb" />
+    <Compile Include="Model\Jenis.vb" />
+    <Compile Include="Koneksidb.vb" />
+    <Compile Include="Model\TambahBunga_M.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Freeuser\assets\css\theme-rtl.css.map" />
+    <Content Include="Freeuser\assets\css\theme-rtl.min.css.map" />
+    <Content Include="Freeuser\assets\css\theme.css.map" />
+    <Content Include="Freeuser\assets\css\theme.min.css.map" />
+    <Content Include="Freeuser\assets\css\theme\review-card-rtl.css.map" />
+    <Content Include="Freeuser\assets\css\theme\review-card-rtl.min.css.map" />
+    <Content Include="Freeuser\assets\css\theme\review-card.css.map" />
+    <Content Include="Freeuser\assets\css\theme\review-card.min.css.map" />
+    <Content Include="Freeuser\assets\css\user-rtl.css.map" />
+    <Content Include="Freeuser\assets\css\user-rtl.min.css.map" />
+    <Content Include="Freeuser\assets\css\user.css.map" />
+    <Content Include="Freeuser\assets\css\user.min.css.map" />
+    <Content Include="Freeuser\assets\img\favicons\manifest.json" />
+    <Content Include="Freeuser\assets\img\favicons\site.webmanifest" />
+    <Content Include="Freeuser\assets\js\config.js.map" />
+    <Content Include="Freeuser\assets\js\echart-example.js.map" />
+    <Content Include="Freeuser\assets\js\echarts-example.js.map" />
+    <Content Include="Freeuser\assets\js\theme.js.map" />
+    <Content Include="Freeuser\assets\js\theme.min.js.map" />
+    <Content Include="Admin\lib\owlcarousel\LICENSE" />
+    <Content Include="Admin\lib\waypoints\links.php" />
+    <Content Include="Admin\scss\bootstrap.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\bootstrap-grid.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\bootstrap-reboot.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\bootstrap-utilities.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\bootstrap.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\forms\_floating-labels.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\forms\_form-check.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\forms\_form-control.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\forms\_form-range.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\forms\_form-select.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\forms\_form-text.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\forms\_input-group.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\forms\_labels.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\forms\_validation.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\helpers\_clearfix.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\helpers\_colored-links.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\helpers\_position.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\helpers\_ratio.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\helpers\_stretched-link.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\helpers\_text-truncation.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\helpers\_visually-hidden.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\mixins\_alert.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\mixins\_border-radius.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\mixins\_box-shadow.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\mixins\_breakpoints.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\mixins\_buttons.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\mixins\_caret.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\mixins\_clearfix.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\mixins\_color-scheme.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\mixins\_container.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\mixins\_deprecate.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\mixins\_forms.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\mixins\_gradients.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\mixins\_grid.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\mixins\_image.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\mixins\_list-group.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\mixins\_lists.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\mixins\_pagination.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\mixins\_reset-text.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\mixins\_resize.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\mixins\_table-variants.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\mixins\_text-truncate.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\mixins\_transition.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\mixins\_utilities.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\mixins\_visually-hidden.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\utilities\_api.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\vendor\_rfs.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_accordion.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_alert.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_badge.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_breadcrumb.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_button-group.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_buttons.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_card.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_carousel.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_close.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_containers.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_dropdown.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_forms.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_functions.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_grid.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_helpers.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_images.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_list-group.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_mixins.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_modal.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_nav.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_navbar.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_offcanvas.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_pagination.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_popover.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_progress.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_reboot.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_root.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_spinners.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_tables.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_toasts.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_tooltip.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_transitions.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_type.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_utilities.scss" />
+    <Content Include="Admin\scss\bootstrap\scss\_variables.scss" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <Content Include="Freeuser\vendors\bootstrap\bootstrap.min.js.map" />
+    <Content Include="Freeuser\vendors\leaflet.markercluster\leaflet.markercluster.js.map" />
+    <Content Include="Freeuser\vendors\leaflet\leaflet.js.map" />
+    <Content Include="Freeuser\vendors\list.js\list.min.js.map" />
+    <Content Include="Freeuser\vendors\plyr\plyr.polyfilled.min.js.map" />
+    <Content Include="Freeuser\vendors\popper\popper.min.js.map" />
+    <Content Include="Freeuser\vendors\tiny-slider\tiny-slider.css.map" />
+    <Content Include="Freeuser\vendors\tiny-slider\tiny-slider.scss" />
+    <Content Include="Freeuser\vendors\tinymce\bower.json" />
+    <Content Include="Freeuser\vendors\tinymce\CHANGELOG.md" />
+    <Content Include="Freeuser\vendors\tinymce\composer.json" />
+    <Content Include="Freeuser\vendors\tinymce\package.json" />
+    <Content Include="Freeuser\vendors\tinymce\README.md" />
+    <Content Include="Freeuser\vendors\tinymce\skins\ui\oxide-dark\fonts\tinymce-mobile.woff" />
+    <Content Include="Freeuser\vendors\tinymce\skins\ui\oxide\fonts\tinymce-mobile.woff" />
+    <Content Include="Freeuser\vendors\unicon\bundle.js.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="Freeuser\vendors\tinymce\tinymce.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>65393</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44369/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

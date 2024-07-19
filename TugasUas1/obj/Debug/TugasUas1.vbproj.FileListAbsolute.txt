@@ -1,0 +1,304 @@
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\TugasUas1.dll.config
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\TugasUas1.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\TugasUas1.pdb
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\TugasUas1.xml
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\csc.exe
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\csc.exe.config
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\csc.rsp
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\csi.exe
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\csi.exe.config
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\csi.rsp
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\System.AppContext.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\System.Collections.Immutable.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\System.Console.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\System.Globalization.Calendars.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\System.IO.Compression.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\System.IO.FileSystem.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\System.Net.Http.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\System.Net.Sockets.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\System.Reflection.Metadata.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\System.ValueTuple.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\System.Xml.XmlDocument.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\System.Xml.XPath.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\vbc.exe
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\vbc.exe.config
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\vbc.rsp
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\VBCSCompiler.exe
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\roslyn\VBCSCompiler.exe.config
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\pemvis pak jaka\TugasUas1\TugasUas1\obj\Debug\TugasUas1.vbproj.AssemblyReference.cache
+D:\pemvis pak jaka\TugasUas1\TugasUas1\obj\Debug\TugasUas1.Resources.resources
+D:\pemvis pak jaka\TugasUas1\TugasUas1\obj\Debug\TugasUas1.vbproj.GenerateResource.cache
+D:\pemvis pak jaka\TugasUas1\TugasUas1\obj\Debug\TugasUas1.vbproj.CoreCompileInputs.cache
+D:\pemvis pak jaka\TugasUas1\TugasUas1\obj\Debug\TugasUas1.vbproj.CopyComplete
+D:\pemvis pak jaka\TugasUas1\TugasUas1\obj\Debug\TugasUas1.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\obj\Debug\TugasUas1.xml
+D:\pemvis pak jaka\TugasUas1\TugasUas1\obj\Debug\TugasUas1.pdb
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\MySql.Data.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\System.Memory.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\System.Threading.Tasks.Extensions.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\System.Numerics.Vectors.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\System.Buffers.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\MySql.Data.xml
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\BCrypt.Net-Next.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\BCrypt.Net-Next.xml
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\System.Buffers.xml
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\System.Memory.xml
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\System.Numerics.Vectors.xml
+D:\pemvis pak jaka\TugasUas1\TugasUas1\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\TugasUas1.dll.config
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\TugasUas1.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\TugasUas1.pdb
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\TugasUas1.xml
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\csc.exe
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\csc.exe.config
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\csc.rsp
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\csi.exe
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\csi.exe.config
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\csi.rsp
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\System.AppContext.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\System.Collections.Immutable.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\System.Console.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\System.Globalization.Calendars.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\System.IO.Compression.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\System.IO.FileSystem.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\System.Net.Http.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\System.Net.Sockets.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\System.Reflection.Metadata.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\System.ValueTuple.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\System.Xml.XmlDocument.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\System.Xml.XPath.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\vbc.exe
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\vbc.exe.config
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\vbc.rsp
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\VBCSCompiler.exe
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\roslyn\VBCSCompiler.exe.config
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\BCrypt.Net-Next.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\MySql.Data.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\System.Buffers.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\System.Memory.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\System.Numerics.Vectors.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\System.Threading.Tasks.Extensions.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\BCrypt.Net-Next.xml
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\MySql.Data.xml
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\System.Buffers.xml
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\System.Memory.xml
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\System.Numerics.Vectors.xml
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\pemvis pak jaka\TugasUas\TugasUas1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\pemvis pak jaka\TugasUas\TugasUas1\obj\Debug\TugasUas1.vbproj.AssemblyReference.cache
+D:\pemvis pak jaka\TugasUas\TugasUas1\obj\Debug\TugasUas1.Resources.resources
+D:\pemvis pak jaka\TugasUas\TugasUas1\obj\Debug\TugasUas1.vbproj.GenerateResource.cache
+D:\pemvis pak jaka\TugasUas\TugasUas1\obj\Debug\TugasUas1.vbproj.CoreCompileInputs.cache
+D:\pemvis pak jaka\TugasUas\TugasUas1\obj\Debug\TugasUas1.vbproj.CopyComplete
+D:\pemvis pak jaka\TugasUas\TugasUas1\obj\Debug\TugasUas1.dll
+D:\pemvis pak jaka\TugasUas\TugasUas1\obj\Debug\TugasUas1.xml
+D:\pemvis pak jaka\TugasUas\TugasUas1\obj\Debug\TugasUas1.pdb
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\obj\Debug\TugasUas1.vbproj.AssemblyReference.cache
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\obj\Debug\TugasUas1.Resources.resources
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\obj\Debug\TugasUas1.vbproj.GenerateResource.cache
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\obj\Debug\TugasUas1.vbproj.CoreCompileInputs.cache
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\obj\Debug\TugasUas1.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\obj\Debug\TugasUas1.xml
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\obj\Debug\TugasUas1.pdb
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\TugasUas1.dll.config
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\TugasUas1.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\TugasUas1.pdb
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\TugasUas1.xml
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\csc.exe
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\csc.exe.config
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\csc.rsp
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\csi.exe
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\csi.exe.config
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\csi.rsp
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\System.AppContext.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\System.Collections.Immutable.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\System.Console.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\System.Globalization.Calendars.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\System.IO.Compression.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\System.IO.FileSystem.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\System.Net.Http.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\System.Net.Sockets.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\System.Reflection.Metadata.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\System.ValueTuple.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\System.Xml.XmlDocument.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\System.Xml.XPath.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\vbc.exe
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\vbc.exe.config
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\vbc.rsp
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\VBCSCompiler.exe
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\roslyn\VBCSCompiler.exe.config
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\BCrypt.Net-Next.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\MySql.Data.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\System.Buffers.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\System.Memory.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\System.Numerics.Vectors.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\System.Threading.Tasks.Extensions.dll
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\BCrypt.Net-Next.xml
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\MySql.Data.xml
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\System.Buffers.xml
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\System.Memory.xml
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\System.Numerics.Vectors.xml
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\pemvis pak jaka\TugasUas - Copy\TugasUas1\obj\Debug\TugasUas1.vbproj.CopyComplete
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\TugasUas1.dll.config
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\TugasUas1.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\TugasUas1.pdb
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\TugasUas1.xml
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\csc.exe
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\csc.exe.config
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\csc.rsp
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\csi.exe
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\csi.exe.config
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\csi.rsp
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\System.AppContext.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\System.Console.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\System.IO.Compression.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\System.Net.Http.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\System.ValueTuple.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\vbc.exe
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\vbc.exe.config
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\vbc.rsp
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\BCrypt.Net-Next.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\MySql.Data.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\System.Buffers.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\System.Memory.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\System.Numerics.Vectors.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\BCrypt.Net-Next.xml
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\MySql.Data.xml
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\System.Buffers.xml
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\System.Memory.xml
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\System.Numerics.Vectors.xml
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\obj\Debug\TugasUas1.vbproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\obj\Debug\TugasUas1.Resources.resources
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\obj\Debug\TugasUas1.vbproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\obj\Debug\TugasUas1.vbproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\obj\Debug\TugasUas1.vbproj.Up2Date
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\obj\Debug\TugasUas1.dll
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\obj\Debug\TugasUas1.xml
+C:\Users\Administrator\source\repos\TugasUas\TugasUas1\obj\Debug\TugasUas1.pdb
