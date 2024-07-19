@@ -80,7 +80,7 @@
             <!-- Navbar End -->
             <div class="container-fluid pt-4 px-4">
                 <div class="bg-secondary text-center rounded p-4">
-                    <h6 class="mb-0">Grafik Penjualan Bunga</h6>
+                    <h6 class="mb-0">Grafik Pencatatan Bunga</h6>
                     <canvas id="grafikCanvas" width="400" height="200"></canvas>
                 </div>
             </div>
