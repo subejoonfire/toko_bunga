@@ -25,6 +25,9 @@
                 <div class="navbar-nav w-100">                    
                     <a href="table.html" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Jumlah Bunga</a>
                 </div> 
+                <div class="navbar-nav w-100">                    
+                    <a href="../Freeuser/Berandapub.aspx" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Logout</a>
+                </div> 
             </nav>
         </div>
         <!-- Sidebar End -->
